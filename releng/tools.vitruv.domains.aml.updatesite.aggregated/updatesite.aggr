@@ -17,6 +17,9 @@
         <features name="org.eclipse.xtext.ui.feature.group" versionRange="2.16.0"/>
         <features name="org.eclipse.xtext.xbase.feature.group" versionRange="2.16.0"/>
       </repositories>
+      <repositories location="http://kit-sdq.github.io/updatesite/release/metamodels" mirrorArtifacts="false">
+        <features name="caex.caex30.feature.feature.group"/>
+      </repositories>
     </contributions>
     <validationRepositories location="http://vitruv-tools.github.io/updatesite/nightly/framework"/>
   </validationSets>
